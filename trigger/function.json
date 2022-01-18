@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "tp-ddp-poc",
+      "subscriptionName": "group2",
+      "connection": "ddpferrovial_SERVICEBUS"
+    }
+  ],
+  "scriptFile": "../dist/trigger/function.js"
+}
